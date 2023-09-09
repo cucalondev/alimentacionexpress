@@ -67,7 +67,7 @@ const products = ref([
     location:'Algeciras'
   },
    {
-    id: 3,
+    id: 4,
     name: 'Cheese Burger',
     price: 29.99,
     image: item4, 
