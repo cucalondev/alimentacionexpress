@@ -45,28 +45,28 @@ const products = ref([
     id: 1,
     name: 'Dancake',
     price: 19.99,
-    image: 'src/assets/item-1.png', 
+    image: '../assets/item-1.png', 
     location:'España'
   },
   {
     id: 2,
     name: 'Thai Soup',
     price: 24.99,
-    image: 'src/assets/item-2.png', 
+    image: '../assets/item-2.png', 
     location:'Asturias'
   },
   {
     id: 3,
     name: 'Toffe Cake',
     price: 29.99,
-    image: 'src/assets/item-3.png', 
+    image: '../assets/item-3.png', 
     location:'Algeciras'
   },
    {
     id: 3,
     name: 'Cheese Burger',
     price: 29.99,
-    image: 'src/assets/cheese-burger.png', 
+    image: '../assets/cheese-burger.png', 
     location:'Marruecos'
   },
 ]);
