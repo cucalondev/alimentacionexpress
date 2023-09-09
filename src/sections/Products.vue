@@ -37,6 +37,7 @@
 <script setup>
 import { ref } from 'vue';
 import { useStore } from 'vuex';
+import item1 from '../assets/item-1.png';
 
 const store = useStore();
 
@@ -45,28 +46,28 @@ const products = ref([
     id: 1,
     name: 'Dancake',
     price: 19.99,
-    image: '../assets/item-1.png', 
+    image: item1, 
     location:'España'
   },
   {
     id: 2,
     name: 'Thai Soup',
     price: 24.99,
-    image: '../assets/item-2.png', 
+    image: 'src/assets/item-2.png', 
     location:'Asturias'
   },
   {
     id: 3,
     name: 'Toffe Cake',
     price: 29.99,
-    image: '../assets/item-3.png', 
+    image: 'src/assets/item-3.png', 
     location:'Algeciras'
   },
    {
     id: 3,
     name: 'Cheese Burger',
     price: 29.99,
-    image: '../assets/cheese-burger.png', 
+    image: 'src/assets/cheese-burger.png', 
     location:'Marruecos'
   },
 ]);
