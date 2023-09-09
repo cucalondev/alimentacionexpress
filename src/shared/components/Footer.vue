@@ -30,7 +30,6 @@
     <div class="bg-red-700 mt-8 py-4">
       <div class="container mx-auto flex items-center justify-between">
         <p class="text-sm">&copy; {{ currentYear }} <a href="#" class="text-red-400 hover:underline">AlimentacionExpress</a></p>
-        <img src="src\assets\icons\paypal.png" width="60" height="32" alt="Métodos de pago" />
       </div>
     </div>
   </footer>
