@@ -38,6 +38,9 @@
 import { ref } from 'vue';
 import { useStore } from 'vuex';
 import item1 from '../assets/item-1.png';
+import item2 from '../assets/item-2.png';
+import item3 from '../assets/item-3.png';
+import item4 from '../assets/cheese-burger.png';
 
 const store = useStore();
 
@@ -53,21 +56,21 @@ const products = ref([
     id: 2,
     name: 'Thai Soup',
     price: 24.99,
-    image: 'src/assets/item-2.png', 
+    image: item2, 
     location:'Asturias'
   },
   {
     id: 3,
     name: 'Toffe Cake',
     price: 29.99,
-    image: 'src/assets/item-3.png', 
+    image: item3, 
     location:'Algeciras'
   },
    {
     id: 3,
     name: 'Cheese Burger',
     price: 29.99,
-    image: 'src/assets/cheese-burger.png', 
+    image: item4, 
     location:'Marruecos'
   },
 ]);
